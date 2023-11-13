@@ -11,24 +11,6 @@
         Etch-A-Sketch
     </h1>
     <div class="container">
-        <div class="setting">
-            <div class="color-picker">
-                <p>Color Picker</p>
-                <input type="color" id="colorPicker">
-            </div>
-            <div class="button-container">
-                <p>Choose your Style</p>
-                <button class="style-button" id="blackColorBtn">Black</button>
-                <button class="style-button" id="darkenColorBtn">Shade</button>
-                <button class="style-button" id="randomColorBtn">Rainbow</button>
-                <button class="style-button" id="eraseBtn">Eraser</button>
-                <button class="style-button" id="clear">Reset</button>
-            </div>
-            <div class="grid-size">
-                <input type="range" id="slider" value="16" min="1" max="64">
-                <div id="gridlength">16</div>
-            </div>
-        </div>
         <div class="grid-container">
             <div class="grid-item"></div>
             <div class="grid-item"></div>
@@ -46,6 +28,34 @@
             <div class="grid-item"></div>
             <div class="grid-item"></div>
             <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+            <div class="grid-item"></div>
+        </div>
+        <div class="setting">
+            <div class="color-picker">
+                <input type="color" id="colorPicker">
+                <div class="text">Color picker</div>
+            </div>
+            <div class="button-container">
+                <div class="text">Choose your Style</div>
+                <div class="button-elements">
+                    <button class="style-button" id="blackColorBtn">Black</button>
+                    <button class="style-button" id="darkenColorBtn">Shade</button>
+                    <button class="style-button" id="randomColorBtn">Rainbow</button>
+                    <button class="style-button" id="eraseBtn">Eraser</button>
+                    <button class="style-button" id="clear">Reset</button>
+                </div>
+            </div>
+            <div class="grid-size">
+                <div class="text" id="gridlength">24 X 16</div>
+                <input type="range" id="slider" value="16" min="1" max="64">
+            </div>
         </div>
     </div>
     <script src="Script.js"></script>
