@@ -13,8 +13,6 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-columns: repeat(6, 1fr);
     width: 720px;
     height: 480px;
 }
@@ -41,21 +39,28 @@ body {
     margin: 0 12px 0 12px;
 }
 
+#colorPicker {
+    transform: translateY(6px);
+}
+
 .text {
     padding: 12px 0;
     font-size: 18px;
 }
 
-#colorPicker {
-
-}
-
 .style-button {
     background-color: white;
-    padding: 12px 36px;
+    padding: 10px 30px;
     margin-right: 2px;
     border-radius: 10px;
     border: gray solid 2px;
+}
+
+.active {
+    background-color: rgb(52, 52, 52);
+    color: white;
+    font-weight: 700;
+    border: none;
 }
 
 #colorPicker {
