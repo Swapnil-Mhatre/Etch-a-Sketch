@@ -17,12 +17,21 @@ body {
     height: 480px;
 }
 
+.message {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    font-weight: 700;
+}
+
 .grid-item {
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
 }
 
 .grid-item:hover {
-    background-color: black;
+    background-color: rgb(40, 40, 40);
 }
 
 .setting {
@@ -40,12 +49,13 @@ body {
 }
 
 #colorPicker {
-    transform: translateY(6px);
+    transform: translateY(12px);
 }
 
 .text {
     padding: 12px 0;
     font-size: 18px;
+    transform: translateY(6px);
 }
 
 .style-button {
